@@ -1,1 +1,35 @@
+@use '../mixins/resposive.scss' as *;
+.title{
+    
+    &--l{
 
+        font-family: "Fraunces", serif;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        width: 295px;
+        margin-inline: auto;
+        color: var(--gunmetal);
+        @include responsive(desktop){
+           
+        }
+    }
+    &--s{
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        letter-spacing: 5px;
+        font-weight: 500;
+        width: 92px;
+        margin-left: 24px;
+        color: var(--aurometal-saurus);
+        padding-top: 12px;
+    }
+}
+.price-1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--deep-aquamarine);
+    line-height: 32px;
+}

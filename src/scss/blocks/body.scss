@@ -1,7 +1,11 @@
+@use '../mixins/resposive.scss' as *;
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  background-color: var(--cream-bg);
   font-family: sans-serif;
+  @include responsive(desktop){
+    width: 1440px;
+  }
 }

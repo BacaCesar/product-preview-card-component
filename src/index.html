@@ -2,22 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+      <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>Product Preview Card Component</title>
   </head>
-  <body>
-    <div class="card">
-      <h1 class="title">Titulo Principal</h1>
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis
-        eos magnam earum numquam dignissimos eveniet asperiores a, minus neque
-        quibusdam odio est in eaque tempora consequatur veniam similique libero?
-      </p>
-      <a class="card__button" href="#">Pincha aquí</a>
-    </div>
-    <script type="module" src="./js/index.js"></script>
-  </body>
-</html>
+  <body class="body">
+    <main class="main">
+      <picture class="image">
+        <source media="(min-width: 768px)" srcset="./assets/images/image-product-desktop.jpg"/>
+        <source media="(min-width: 360px)" srcset="./assets/images/image-product-mobile.jpg">
+        <img class="image" src="./assets/images/image-product-mobile.jpg" alt="image demo">
+      </picture>
+      <div class="card-info">
+        <h3 class="title title--s">PERFUME</h3>
+        <h1 class="title title--l">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="price">
+          <span class="price price--1" data-currency="$">149.99</span>
+          <span class="price price--2" data-currency="$"><del>169.99</del></span>
+        </div>
+        <div class="button">
+          <img class="icon" src="./assets/images/icon-cart.svg" alt="icon.cart">
+          <a class="text-button" href="button" href="#">Add to Cart</a>
+        </div>
+      </div>
+      </main>
+      <script type="module" src="./js/index.js"></script>
+    </body>
+    </html>
+    

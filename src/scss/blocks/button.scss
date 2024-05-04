@@ -1,0 +1,17 @@
+@use '../mixins/resposive.scss' as *;
+
+.button{
+    width: 295px;
+    height: 48px;
+    background-color: var(--deep-aquamarine);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-inline: auto;
+    border-radius: 8px;
+    @include responsive(desktop){
+        width: 236px;
+    }
+}

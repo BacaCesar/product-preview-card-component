@@ -1,0 +1,23 @@
+.price{
+display: flex;
+flex-direction: row;
+justify-content: start;
+margin-left: 12px;
+margin-bottom: 8px;
+
+    &--1{
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--deep-aquamarine);
+        line-height: 32px;
+    }
+    &--2{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        color: var(--aurometal-saurus);
+        margin-top: 5px;
+    }
+}

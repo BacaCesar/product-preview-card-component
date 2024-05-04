@@ -1,0 +1,9 @@
+@use '../mixins/resposive.scss' as *;
+.card-info{
+    @include responsive(desktop){
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        
+    }
+}

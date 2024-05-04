@@ -1,1 +1,22 @@
-
+@use '../mixins/resposive.scss' as *;
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: var(--aurometal-saurus);
+    width: 295px;
+    margin-inline: auto;
+    @include responsive(desktop){
+        width: 237px;
+    }
+}
+.text-button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,18 @@
+@use '../mixins/resposive.scss' as *;
+.main{
+    width: 343px;
+    height: 611px;
+    background-color: white;
+    margin-inline: auto;
+    border-radius: 10px;
+    margin: 28px 16px;
+    @include responsive(desktop){
+        width: 600px;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+}

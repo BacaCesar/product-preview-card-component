@@ -2,4 +2,11 @@
 @use 'base/initial-reset.scss';
 @use 'config/variables.scss';
 @use 'blocks/body.scss';
+@use 'blocks/main.scss';
+@use 'blocks/texts.scss';
+@use 'blocks/titles.scss';
+@use 'blocks/images.scss';
+@use 'blocks/button.scss';
+@use 'blocks/icon.scss';
+@use 'blocks/prices.scss';
 @use 'blocks/cards.scss';
