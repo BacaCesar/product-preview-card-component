@@ -1,4 +1,12 @@
+@use '../mixins/resposive.scss' as *;
 .image{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    @include responsive(desktop){
+        width: 600px;
+        height: 450px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
 }

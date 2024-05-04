@@ -6,13 +6,14 @@
         font-family: "Fraunces", serif;
         font-size: 32px;
         line-height: 32px;
-        letter-spacing: 1px;
         font-weight: 700;
         width: 295px;
         margin-inline: auto;
         color: var(--gunmetal);
         @include responsive(desktop){
-           
+           width: 236px;
+           margin-left: 24px;
+           color: var(--gunmetal);
         }
     }
     &--s{

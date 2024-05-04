@@ -6,6 +6,6 @@ body {
   background-color: var(--cream-bg);
   font-family: sans-serif;
   @include responsive(desktop){
-    width: 1440px;
+    margin-top: 175px;
   }
 }
