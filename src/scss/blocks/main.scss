@@ -15,4 +15,13 @@
         justify-content: center;
         margin: auto;
       }
+      @include responsive(tablet){
+        width: 600px;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
 }

@@ -16,6 +16,10 @@ margin-bottom: 8px;
             width: 127px;
             color: var(--deep-aquamarine);
          }
+         @include responsive(tablet){
+            width: 127px;
+            color: var(--deep-aquamarine);
+         }
     }
     &--2{
         font-family: "Montserrat", sans-serif;
@@ -25,6 +29,10 @@ margin-bottom: 8px;
         color: var(--aurometal-saurus);
         margin-top: 5px;
         @include responsive(desktop){
+            margin-left: 8px;
+            
+         }
+         @include responsive(tablet){
             margin-left: 8px;
             
          }

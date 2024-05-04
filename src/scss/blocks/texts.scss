@@ -11,6 +11,10 @@
         width: 237px;
         margin-left: 20px;
     }
+    @include responsive(tablet){
+        width: 237px;
+        margin-left: 20px;
+    }
 }
 .text-button{
     font-family: "Montserrat", sans-serif;

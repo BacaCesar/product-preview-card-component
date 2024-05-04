@@ -8,4 +8,7 @@ body {
   @include responsive(desktop){
     margin-top: 175px;
   }
+  @include responsive(tablet){
+    margin-top: 175px;
+  }
 }
